@@ -6,6 +6,7 @@ services:
       MYSQL_ROOT_PASSWORD: sua_senha
       MYSQL_DATABASE: wordpress
       MYSQL_USER: wp
+      
       MYSQL_PASSWORD: sua_senha
   wordpress:
     depends_on:
