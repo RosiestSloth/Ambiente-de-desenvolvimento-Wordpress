@@ -12,6 +12,7 @@ services:
     depends_on:
     
       - db
+      
     image: wordpress
     ports:
       - "80:80"
